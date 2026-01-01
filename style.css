@@ -6,6 +6,8 @@ body {
 }
 
 header {
+    background: url('formula_1_logo.jpg') no-repeat center;
+    background-size: cover;
     background-color: #111;
     color: #fff;
     text-align: center;
@@ -77,3 +79,4 @@ footer {
     color: white;
     margin-top: 40px;
 }
+
