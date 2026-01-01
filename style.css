@@ -1,29 +1,30 @@
-/* BODY */
 body {
     font-family: 'Georgia', serif;
     margin: 0;
-    background-color: #000000; /* pure black */
-    color: #e0e0e0; /* light text for readability */
+    background-color: #000000;
+    color: #e0e0e0;
 }
 
-/* HEADER */
 header {
-    background: url('formula-1-logo.jpg') no-repeat center;
-    background-size: cover;
-    color: white;
-    padding: 80px 0;
+    background-color: #111;
+    color: #fff;
     text-align: center;
+    padding: 60px 0;
     text-shadow: 2px 2px 5px black;
 }
 
 header h1 {
     font-size: 3em;
-    margin: 0;
+    margin-bottom: 10px;
 }
 
-/* NAVIGATION */
+header p {
+    font-style: italic;
+    color: #ccc;
+}
+
 nav {
-    background-color: #FF0000; /* keep red */
+    background-color: #FF0000;
     display: flex;
     justify-content: center;
 }
@@ -36,45 +37,43 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #cc0000; /* darker red hover */
+    background-color: #cc0000;
 }
 
-/* CONTAINER */
 .container {
     max-width: 900px;
     margin: 20px auto;
-    background-color: #0a0a0a; /* dark container, blends with black */
     padding: 20px;
-    box-shadow: 0 0 15px rgba(255, 0, 0, 0.3); /* subtle red glow */
-    border-radius: 10px;
 }
 
-/* POSTS */
 .post {
     margin-bottom: 40px;
+    background-color: #111;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255,0,0,0.2);
 }
 
 .post img {
     width: 100%;
     border-radius: 8px;
-    border: 1px solid #222;
+    margin: 15px 0;
 }
 
-.post h2 {
+.post h2, .post h3 {
+    color: #FF0000;
     margin-top: 10px;
-    color: #FF0000; /* red headings */
 }
 
 .post p {
     line-height: 1.6;
-    color: #ccc; /* light gray text */
+    color: #ccc;
 }
 
-/* FOOTER */
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #FF0000; /* red footer */
+    background-color: #FF0000;
     color: white;
     margin-top: 40px;
 }
