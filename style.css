@@ -2,84 +2,57 @@ body {
     font-family: 'Georgia', serif;
     margin: 0;
     background-color: #000000;
-    color: #e0e0e0;
 }
-
 header {
     background: url('formula_1_logo.jpg') no-repeat center;
     background-size: cover;
-    background-color: #111;
     color: white;
-    text-align: center;
     padding: 80px 0;
+    text-align: center;
     text-shadow: 2px 2px 5px black;
 }
-
 header h1 {
     font-size: 3em;
-    margin-bottom: 10px;
+    margin: 0;
 }
-
-header p {
-    font-style: times new romen;
-    color: #000000;
-}
-
 nav {
     background-color: #FF0000;
     display: flex;
     justify-content: center;
 }
-
 nav a {
     color: white;
     text-decoration: none;
     padding: 14px 20px;
-    transition: 0.3s;
 }
-
 nav a:hover {
     background-color: #FF0000;
 }
-
 .container {
     max-width: 900px;
     margin: 20px auto;
+    background: white;
     padding: 20px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
-
 .post {
     margin-bottom: 40px;
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 15px rgba(255,0,0,0.2);
 }
-
 .post img {
     width: 100%;
     border-radius: 8px;
-    margin: 15px 0;
 }
-
-.post h2, .post h3 {
-    color: #000000;
+.post h2 {
     margin-top: 10px;
+    color: #000000;
 }
-
 .post p {
     line-height: 1.6;
-    color: #ccc;
 }
-
 footer {
     text-align: center;
     padding: 20px;
     background-color: #FF0000;
     color: white;
-    margin-top: 40px;
+    margin-top: 40px;
 }
-
-
-
-
