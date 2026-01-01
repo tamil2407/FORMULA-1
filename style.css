@@ -50,7 +50,7 @@ nav a:hover {
 
 .post {
     margin-bottom: 40px;
-    background-color: #111;
+    background-color: #000;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(255,0,0,0.2);
@@ -79,4 +79,5 @@ footer {
     color: white;
     margin-top: 40px;
 }
+
 
