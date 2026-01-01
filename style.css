@@ -1,8 +1,11 @@
+/* Body & general */
 body {
     font-family: 'Georgia', serif;
     margin: 0;
     background-color: #000000;
 }
+
+/* Header */
 header {
     background: url('formula_1_logo.jpg') no-repeat center;
     background-size: cover;
@@ -15,6 +18,8 @@ header h1 {
     font-size: 3em;
     margin: 0;
 }
+
+/* Navigation */
 nav {
     background-color: #FF0000;
     display: flex;
@@ -24,35 +29,53 @@ nav a {
     color: white;
     text-decoration: none;
     padding: 14px 20px;
+    transition: 0.3s;
 }
 nav a:hover {
-    background-color: #FF0000;
+    background-color: #cc0000;
 }
+
+/* Container */
 .container {
     max-width: 900px;
     margin: 20px auto;
-    background: white;
-    padding: 20px;
-    box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
+
+/* Each post box */
 .post {
-    margin-bottom: 40px;
+    background-color: #ffffff; /* White box */
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 5px 20px rgba(0,0,0,0.3); /* Shadow for 3D effect */
+    overflow: hidden; /* Keeps images & content inside the box */
 }
+
+/* Images inside post */
 .post img {
     width: 100%;
-    border-radius: 8px;
+    border-radius: 10px; /* Optional: rounded image corners */
+    margin-bottom: 15px;
 }
+
+/* Titles & text */
 .post h2 {
     margin-top: 10px;
     color: #000000;
 }
+.post h3 {
+    margin-top: 15px;
+    color: #FF0000;
+}
 .post p {
     line-height: 1.6;
 }
+
+/* Footer */
 footer {
     text-align: center;
     padding: 20px;
     background-color: #FF0000;
     color: white;
-    margin-top: 40px;
+    margin-top: 40px;
 }
