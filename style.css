@@ -22,7 +22,7 @@ header h1 {
 
 header p {
     font-style: times new romen;
-    color: #ccc;
+    color: #000000;
 }
 
 nav {
@@ -79,6 +79,7 @@ footer {
     color: white;
     margin-top: 40px;
 }
+
 
 
 
